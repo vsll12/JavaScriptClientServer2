@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+
+        <form id="searchGoodsForm">
+            <input id="searchInput" placeholder="Search by product name start" />
+            <button type="submit">Search</button>
+        </form>
+    
+        <form id="searchAdminForm">
+            <input id="adminSearchInput" placeholder="Search by product name (includes)" />
+            <button type="submit">Search</button>
+        </form>
+    
+      
+        <form id="searchPriceForm">
+            <input id="minPriceInput" type="number" placeholder="Min Price" />
+            <input id="maxPriceInput" type="number" placeholder="Max Price" />
+            <button type="submit">Search</button>
+        </form>
+      
+        <ul id="list"></ul>
+    </div>
+    
+    <form id="addForm">
+        <input type="text" name="product_name">
+        <input type="text" name="product_description">
+        <input type="text" name="product_price">
+        <input type="text" name="store_name">
+        <input type="text" name="store_address">
+        <button>ADD TO BAG</button>
+    </form>
+    <ul id="list"></ul>
+    <script src="./script.js"></script>
+
+</body>
+</html>
